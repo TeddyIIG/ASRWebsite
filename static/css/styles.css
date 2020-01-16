@@ -1,0 +1,49 @@
+h1 {
+    color: chartreuse;
+    padding-left: 0.75em;
+    padding-top: 1.5em;
+    background-image: url("../images/header.png");
+    font-size: 2.5em;
+    height: 4.5em;
+    margin: 0;
+}
+
+
+#dropdownbutton {
+    color: white;
+    size: 5px;
+
+
+}
+
+#CarouselIndicators {
+    background-image: url("../images/christmas.jpg");
+    background-size: 100% 100%;
+}
+
+
+#topnav {
+    background-color: #b21f2d;
+}
+
+h3 {
+    color: #1b1e21;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.carousel-indicators li {
+    background-color: #0c5460;
+}
+
+p {
+    color: black;
+}
+
+
+
+
+
+
