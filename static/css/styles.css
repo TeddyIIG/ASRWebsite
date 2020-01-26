@@ -1,41 +1,21 @@
 h1 {
-    color: chartreuse;
-    padding-left: 0.75em;
-    padding-top: 1.5em;
-    background-image: url("../images/header.png");
-    font-size: 2.5em;
-    height: 4.5em;
-    margin: 0;
+    color: honeydew;
+    font-size: 3.5vw;
 }
 
+h2 {
+    color: honeydew;
+    padding-top: 0.55em;
+    font-size: 1.5vw;
 
-#dropdownbutton {
-    color: white;
-    size: 5px;
-
-
-}
-
-#CarouselIndicators {
-    background-image: url("../images/christmas.jpg");
-    background-size: 100% 100%;
-}
-
-
-#topnav {
-    background-color: #b21f2d;
 }
 
 h3 {
     color: #1b1e21;
 }
 
-.carousel-indicators .active {
-    background-color: black;
-}
-
-.carousel-indicators li {
-    background-color: #0c5460;
+h4 {
+    font-size: 1.5em;
 }
 
 p {
@@ -43,7 +23,109 @@ p {
 }
 
 
+#headerdiv {
+    padding-left: 0.75em;
+    padding-top: 1em;
+    background: linear-gradient(125deg, #9f00a7 80%, black 20%);
+    background-blend-mode: color-burn;
+    font-size: 2.5em;
+    height: 5.5em;
 
+}
 
+#CarouselIndicators {
+    background-image: url("../images/Love.jpg");
+    background-size: 100% 100%;
+}
 
+.dropdown-toggle::before {
+    content: none;
+}
 
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.carousel-indicators li {
+    background-color: lightgrey;
+}
+
+#login {
+    float: right;
+    margin-right: 2.22em;
+    margin-bottom: 6em;
+    margin-top: -5em;
+
+}
+
+.h-menu {
+    background-color: #261D2C;
+    color: white;
+    align-content: center;
+}
+
+#logoimage {
+
+    position: fixed;
+    margin-top: -4em;
+    max-width: 26%;
+    max-height: 40%;
+
+}
+
+#footer {
+    min-height: 200px;
+    background-color: #22182C;
+}
+
+#footerdiv {
+    min-height: 2.5px;
+    background-color: floralwhite;
+}
+
+#fb {
+    padding-right: 15px;
+}
+
+#linkedin {
+    padding-right: 15px;
+}
+
+#git {
+    padding-right: 15px;
+}
+
+#mail {
+
+}
+
+#footernote {
+    padding-bottom: 1px;
+    font-size: 10px;
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 15px;
+    line-height: 11px;
+
+}
+
+#footernote2 {
+    padding-bottom: 1.5px;
+    font-size: 10px;
+    color: whitesmoke;
+    padding-left: 4px;
+    text-align: center;
+    line-height: 8px;
+}
+
+#footer2 {
+    min-height: 20px;
+    background-color: #22182C;
+
+}
+
+#bugreport {
+    float: right;
+    margin-bottom: -5px;
+    margin-right: 5px;
+}

@@ -19,5 +19,7 @@ from django.contrib import admin
 from ASR_Main import views
 
 urlpatterns = [
-    url(r'^', views.main),
+    url(r'admin', admin.site.urls),
+    url(r'^$', views.main),
+    url(r'^signin/$', views.signin, name='signin'),
 ]
