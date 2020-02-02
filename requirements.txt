@@ -22,6 +22,7 @@ pycparser==2.19
 pyparsing==2.2.0
 python-gnupg==0.4.3
 pytz==2018.7
+gunicorn==19.9.0
 six==1.10.0
 soupsieve==1.9.5
 virtualenv==16.1.0

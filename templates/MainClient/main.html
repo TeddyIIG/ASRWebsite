@@ -3,7 +3,7 @@
 {% load static %}
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width , initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Shehanka Fernando - Software Engineer</title>               <!-- HTML Heading to display -->
 
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
@@ -30,43 +30,41 @@
 </head>
 
 
-<body id="main">
+<body id="main" style="max-height: 1vh">
 
 <div class="select2-container--above" id="headerdiv">
 
-    <h1 class="text-center">Shehanka Fernando</h1>
-    <h2 class="text-center">Software Engineer by Day! Gamer by Night!</h2>
+    <h1 class="text-center" id="mainheading">Shehanka Fernando</h1>
+    <h2 class="text-center" id="secondheading">Software Engineer by Day! Gamer by Night!</h2>
     <a class="btn btn-primary" id="login" href="{% url 'signin' %}">Log In</a>
 
 
-    <div>
+
         <img id="logoimage" class="img-fluid" src="{% static 'images/Logo2.png' %}">
-    </div>
+
 
 </div>
-<div>
-    <nav class="h-menu sticky-top navbar-toggler" id="navbar">
+
+<div data-role="appbar" class="bg-dark" data-expand-point="sm" id="navmenu">
+    <a class="brand no-hover"></a>
+
+    <ul class="app-bar-menu">
         <li><a href="#">Home</a></li>
         <li>
-            <a href="#" class="dropdown-toggle">Personal Projects</a>
+            <a href="#" class="dropdown-toggle">Products</a>
             <ul class="d-menu" data-role="dropdown">
-                <li>
-                    <a href="#" class="dropdown-toggle">2016</a>
-                    <ul class="d-menu" data-role="dropdown">
-                        <li><a href="#">Car Groom Services</a></li>
-
-                    </ul>
-                </li>
-                <li><a href="#">Upcoming</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Planned</a></li>
+                <li><a href="#">Windows 10</a></li>
+                <li><a href="#">Office 365</a></li>
+                <li class="divider bg-lightGray"></li>
+                <li><a href="#">Skype</a></li>
             </ul>
         </li>
-        <li><a href="#">Contact Me</a></li>
-        <li><a href="#">About Me</a></li>
-    </nav>
-
-    <div id="CarouselIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contacts</a></li>
+    </ul>
+</div>
+<div>
+    <div id="CarouselIndicators" class="carousel slide " data-ride="carousel" data-interval="3000">
         <ol class="carousel-indicators">
             <li data-target="#CarouselIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#CarouselIndicators" data-slide-to="1"></li>
@@ -74,17 +72,19 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block mx-auto" height="500px" src="{% static 'images/coding.jpg' %}" alt="First slide">
+                <img class="d-md-flex img-fluid " height="50vh" src="{% static 'images/coding.jpg' %}"
+                     alt="First slide">
                 <div class="carousel-caption">
                     <h4>Programming isn't just my passion, its become a part of me</h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block mx-auto" height="500px" src="{% static 'images/enrollment2.jpg' %}"
+                <img class="d-md-flex img-fluid" height="50vh" src="{% static 'images/lightbulb.jpg' %}"
                      alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block mx-auto" height="500px" src="{% static 'images/test.jpg' %}" alt="Third slide">
+                <img class="d-md-flex img-fluid" height="50vh" src="{% static 'images/redlights.jpg' %}"
+                     alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#CarouselIndicators" role="button" data-slide="prev">
@@ -96,34 +96,33 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <div id="footerdiv"></div>
-    <div id="footer" class="d-flex justify-content-center">
+</div>
+<div id="footerdiv"></div>
+<div id="footer" class="d-flex justify-content-center">
 
 
-        <span id="fb" class="mif-facebook2 mif-5x fg-white" href=""></span>
-        <a href="https://www.linkedin.com/in/shehanka-fernando-2a0932a9/" target="_blank"><span id="linkedin"
-                                                                                                class="mif-linkedin mif-5x fg-white center-block"></span>
-        </a>
-        <a href="https://github.com/TeddyIIG" target="_blank"><span id="git"
-                                                                    class="mif-git mif-5x fg-white icon-resize-full"></span>
-        </a>
-        <a><span id="mail" class="mif-mail mif-5x fg-white" href=""></span></a>
+    <span id="fb" class="mif-facebook2 mif-5x fg-white" href=""></span>
+    <a href="https://www.linkedin.com/in/shehanka-fernando-2a0932a9/" target="_blank"><span id="linkedin"
+                                                                                            class="mif-linkedin mif-5x fg-white center-block"></span></a>
+    <a href="https://github.com/TeddyIIG" target="_blank"><span id="git"
+                                                                class="mif-git mif-5x fg-white icon-resize-full"></span></a>
+    <a><span id="mail" class="mif-mail mif-5x fg-white" href=""></span></a>
 
 
+</div>
+<div id="footerdiv"></div>
+<div id="footer2">
+    <div id="bugreport" class="mif-bug mif-1x fg-white icon-resize-horizontal " data-role="hint"
+         data-hint-text="Report a bug" data-hint-position="left"></div>
+    <div id="footernote">Made by Shehanka Fernando, with the use of bootstrap and MetroUI as front-end and Django
+        (Python)
     </div>
-    <div id="footerdiv"></div>
-    <div id="footer2">
-        <div id="bugreport" class="mif-bug mif-1x fg-white icon-resize-horizontal " data-role="hint"
-             data-hint-text="Report a bug" data-hint-position="left"></div>
-        <div id="footernote">Made by Shehanka Fernando, with the use of bootstrap and MetroUI as front-end and Django
-            (Python)
-        </div>
-        <div id="footernote2"><a href="https://iconscout.com/icon/django-2" target="_blank">Django Logo Icon</a> by <a
-                href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a>
-        </div>
-
+    <div id="footernote2">
+        <a>Photo by Rodolfo Clix from Pexels</a>
     </div>
-</div>                                                                                      <!-- Sticky menu -->
+
+</div>
+<!-- Sticky menu -->
 
 </body>
 </html>
