@@ -50,6 +50,7 @@ p {
     background-color: lightgrey;
 }
 
+
 #login {
     float: right;
     margin-right: 2.22em;
@@ -70,8 +71,13 @@ p {
 
 }
 
+.html {
+    height: 100%;
+}
+
 #main {
-    margin-bottom: 0px;
+    background-image: url("/static/images/Love.jpg");
+    height: 100%;
 }
 
 #logoimage {
@@ -91,8 +97,8 @@ p {
 }
 
 #footer {
-    height: 300%;
-    background-color: #22182C;
+    height: 50vh;
+
 }
 
 #footerdiv {
@@ -101,22 +107,26 @@ p {
 }
 
 #fb {
+
+    padding-top: 5vw;
     padding-right: 15px;
 
 }
 
 #linkedin {
+    padding-top: 5vw;
     padding-right: 15px;
 
 }
 
 #git {
+    padding-top: 5vw;
     padding-right: 15px;
 
 }
 
 #mail {
-
+    padding-top: 5vw;
     min-font-size: 50%;
 }
 
@@ -141,7 +151,7 @@ p {
 
 #footer2 {
     min-height: 20px;
-    background-color: #22182C;
+
 
 }
 
