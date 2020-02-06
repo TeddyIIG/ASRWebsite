@@ -1,9 +1,12 @@
 h1 {
+    font-family: 'Libre Baskerville', serif;
     color: honeydew;
     font-size: 3.5vw;
+    padding-top: 5vw;
 }
 
 h2 {
+    font-family: 'Libre Baskerville', serif;
     color: honeydew;
     padding-top: 0.55em;
     font-size: 1.5vw;
@@ -16,10 +19,12 @@ h3 {
 
 h4 {
     font-size: 1.5vw;
+    font-family: 'Indie Flower', cursive;
 }
 
 p {
     color: black;
+
 }
 
 
@@ -27,7 +32,7 @@ p {
     background: linear-gradient(125deg, #9f00a7 80%, black 20%);
     background-blend-mode: color-burn;
     width: 100%;
-    height: auto;
+    min-height: 20vw;
 
 
 }
@@ -87,7 +92,7 @@ p {
     max-height: 100%;
     width: 20%;
     height: auto;
-    margin-top: -9.66%;
+    margin-top: -12.66%;
     margin-left: 3%;
 
 }
@@ -150,7 +155,8 @@ p {
 }
 
 #footer2 {
-    min-height: 20px;
+    min-height: 8px;
+    max-height: 15px;
 
 
 }
