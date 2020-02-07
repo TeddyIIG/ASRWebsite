@@ -29,7 +29,7 @@ p {
 
 
 #headerdiv {
-   
+
     width: 100%;
     min-height: 20vw;
 
@@ -80,7 +80,7 @@ p {
 }
 
 #main {
-    background-image: url("/static/images/loginformpage.png");
+    background-image: url("/static/images/mainbackground.png");
     height: 100%;
 }
 
