@@ -15,3 +15,7 @@ def signin(request):
 def signinuser(request):
     form = UserCreationForm()
     return render(request, 'MainClient/loginpage.html', {'form': form})
+
+
+def underconstruction(request):
+    return render(request, 'MainClient/underconstruction.html')

@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'admin', admin.site.urls),
     url(r'^$', views.main),
     url(r'^signin/$', views.signin, name='signin'),
+    url(r'^undercon/$', views.underconstruction, name='undercon'),
 ]
