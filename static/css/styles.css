@@ -29,8 +29,7 @@ p {
 
 
 #headerdiv {
-    background: linear-gradient(125deg, #9f00a7 80%, black 20%);
-    background-blend-mode: color-burn;
+   
     width: 100%;
     min-height: 20vw;
 
@@ -38,7 +37,7 @@ p {
 }
 
 #CarouselIndicators {
-    background-image: url("../images/Love.jpg");
+
     background-size: 100% 100%;
 
 }
@@ -81,7 +80,7 @@ p {
 }
 
 #main {
-    background-image: url("/static/images/Love.jpg");
+    background-image: url("/static/images/loginformpage.png");
     height: 100%;
 }
 
