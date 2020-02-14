@@ -20,7 +20,7 @@ from ASR_Main import views
 
 urlpatterns = [
     url(r'admin', admin.site.urls),
-    url(r'^$', views.main),
+    url(r'^$', views.main, name='main'),
     url(r'^signin/$', views.signin, name='signin'),
     url(r'^undercon/$', views.underconstruction, name='undercon'),
 ]

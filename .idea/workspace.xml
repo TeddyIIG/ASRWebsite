@@ -2,13 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c84cd78-4dc6-412d-8cc3-4631a5909737" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/underccon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/underconstruction.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/MainClient/underconstruction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mainpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/mainbackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.birds.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.cells.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.clouds.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.clouds2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.dots.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.fog.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.globe.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.net.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.rings.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.ripple.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.topology.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.trunk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/dist/vanta.waves.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/_base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/_p5Base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/_shaderBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/skeleton.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/styles.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.birds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.cells.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.clouds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.clouds2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.dots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.fog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.globe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.net.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.rings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.ripple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.topology.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.trunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/src/vanta.waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/vendor/FilmGrain_v1.1.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/vendor/GPUComputationRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/vendor/p5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/vendor/three.r95.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/webpack.build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/libraries/vanta-master/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/MainClient/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASRWebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASRWebsite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASR_Main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASR_Main/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/logins.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/logins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Love.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/RainbowBlue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/coding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/lightbulb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/mainbackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/redlights.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/youtube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MainClient/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MainClient/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/MainClient/loginpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MainClient/loginpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/MainClient/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MainClient/main.html" afterDir="false" />
     </list>
@@ -37,9 +95,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -157,7 +215,8 @@
       <workItem from="1580047665221" duration="158000" />
       <workItem from="1580099620860" duration="26389000" />
       <workItem from="1580619223257" duration="9771000" />
-      <workItem from="1580992415227" duration="17026000" />
+      <workItem from="1580992415227" duration="18675000" />
+      <workItem from="1581586530461" duration="33674000" />
     </task>
     <task id="LOCAL-00001" summary="This is the initial commit">
       <created>1577758681853</created>
@@ -229,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581069143213</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Changed to personal site">
+      <created>1581089323663</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581089323663</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,14 +318,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579684382370" />
-    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581051264993">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581592596431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581051264993" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581069141900">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581592596431" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581089321844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581069141900" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581089321844" />
     <state x="129" y="53" key="DiffContextDialog" timestamp="1580998450171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -280,22 +346,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="582" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579184494684" />
-    <state width="659" height="179" key="GridCell.Tab.0.bottom" timestamp="1581088819049">
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom" timestamp="1581660508152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581088819049" />
-    <state width="659" height="179" key="GridCell.Tab.0.center" timestamp="1581088819049">
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581660508152" />
+    <state width="1322" height="2" key="GridCell.Tab.0.center" timestamp="1581660508152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581088819049" />
-    <state width="659" height="179" key="GridCell.Tab.0.left" timestamp="1581088819049">
+    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581660508152" />
+    <state width="1322" height="2" key="GridCell.Tab.0.left" timestamp="1581660508152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581088819049" />
-    <state width="659" height="179" key="GridCell.Tab.0.right" timestamp="1581088819049">
+    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581660508152" />
+    <state width="1322" height="2" key="GridCell.Tab.0.right" timestamp="1581660508152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581088819049" />
+    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581660508152" />
     <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1577173911429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -320,10 +386,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579184176437" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1581069198516">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1581089328588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581069198516" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581089328588" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579185285307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -348,10 +414,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="257" key="git4idea.ui.GitResetDialog/0.0.1366.728@0.0.1366.728" timestamp="1579184770113" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1579687054898">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581646535094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1579687054898" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581646535094" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
