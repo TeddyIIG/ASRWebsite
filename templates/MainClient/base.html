@@ -25,24 +25,16 @@
             crossorigin="anonymous"></script>
     <!-- Bootstrap CDN links, static files will be included in the directory, use them if CDN fails -->
 
-    <link rel="stylesheet" type="text/css" href="{% static 'css/mainpage.css' %}">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
     <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
 
-</head>
-{% block content %}
-{% endblock %}
-<script>
-    VANTA.WAVES({
-        el: "#landingpagebody",
-        mouseControls: true,
-        touchControls: true,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        color: 0x7c7c7d
-    })
-</script>
+    <script src="{% static 'js/chatbot.js' %}"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    {% block content %}
+    {% endblock %}
+
 </html>

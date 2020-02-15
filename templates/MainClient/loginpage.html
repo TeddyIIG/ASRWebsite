@@ -1,58 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'MainClient/base.html' %}
 {% load static %}
+{% block content %}
 
-<head>
-    <meta charset="UTF-8">
-    <title>Login Portal</title>
-
-    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
-    <script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-    <!-- Bootstrap CDN links, static files will be included in the directory, use them if CDN fails -->
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-    <!-- Bootstrap CDN links, static files will be included in the directory, use them if CDN fails -->
     <link rel="stylesheet" type="text/css" href="{% static 'css/logins.css' %}">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>Login Form</title>
-
-</head>
-<body class="h-vh-100" id="mainbod">
+    </head>
+    <body id="mainbod">
 
 
-<form class="login-form bg-white p-6 mx-auto border bd-default win-shadow" style="height: 70vh">
+    </body>
+    <script>
+        VANTA.WAVES({
+            el: "#mainbod",
+            mouseControls: true,
+            touchControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x7c7c7d
+        })
+    </script>
+{% endblock %}
 
-
-    <h2 style="color: #1b1e21; text-align: center">Login</h2>
-    <hr class="thin mt-4 mb-4 bg-white">
-    <div class="form-group">
-        <input type="text" data-role="input" data-prepend="<span class='mif-envelop'>" placeholder="Enter your email..."
-               data-validate="required email">
-    </div>
-    <div class="form-group">
-        <input type="password" data-role="input" data-prepend="<span class='mif-key'>"
-               placeholder="Enter your password..." data-validate="required minlength=6">
-    </div>
-    <div class="form-group mt-10">
-        <input type="checkbox" data-role="checkbox" data-caption="Remember me" class="place-right">
-        <button class="button">Login</button>
-        <button class="button">New User?</button>
-    </div>
-
-
-</form>
-</body>
-</html>

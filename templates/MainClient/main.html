@@ -1,8 +1,10 @@
 {% extends 'MainClient/base.html' %}
 
 {% load static %}
-{% block content %}
 
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/mainpage.css' %}">
+    </head>
     <body id="landingpagebody">
 
     <!---------------------------------------------------  HEADER  ---------------------------------------------------------------------->
@@ -17,11 +19,16 @@
     <!-----------------------------------------------  NAVBAR START   ---------------------------------------------------------------------->
     <div>
         {% include 'MainClient/navbar.html' %}
+        <div class="jumbotron jumbotron-fluid" style="background-color: #1d1d1d;margin-bottom: -1vw;min-height: 20vw">
 
-        <div class="container-fluid" style="background-color: whitesmoke;padding-bottom: 5vw;padding-top:2.5vw">
+
+        </div>
+
+
+        <div class="container-fluid" id="cardcontainer">
             <div class="row">
                 <!---------------------------------------------------  CARDS  ---------------------------------------------------------------------->
-                <div class="card" id="facebookcard">
+                <div data-aos="fade-left" data-aos-delay="250" class="card" id="facebookcard">
                     <img class="card-img-top" src="{% static 'images/facebook.png' %}" id="facebookimage">
                     <div class="card-body" style="background-color: #c8cbcf">
                         <h5 class="card-title" style="font-size: 2.5vw">My Facebook</h5>
@@ -32,7 +39,7 @@
                     </div>
                 </div>
                 <!------------------------------------------------------------------------------------------------------------------------->
-                <div class="card w-25 align-right" id="youtubecard">
+                <div class="card w-25 align-right" data-aos="fade-left" data-aos-delay="1000" id="youtubecard">
                     <img class="card-img-top" src="{% static 'images/youtube.png' %}" id="youtubeimage">
                     <div class="card-body" style="background-color: lightgrey">
                         <h5 class="card-title" style="font-size: 2.5vw">My Youtube</h5>
@@ -45,7 +52,7 @@
                     </div>
                 </div>
                 <!--------------------------------------------------------------------------------------------------------------------->
-                <div class="card w-25 align-right" id="githubcard">
+                <div class="card w-25 align-right" data-aos="fade-left" data-aos-delay="1500" id="githubcard">
                     <img class="card-img-top" id="githubimage" src="{% static 'images/github.png' %}">
                     <div class="card-body" style="background-color: lightgrey">
                         <h5 class="card-title" style="font-size: 2.5vw">My Github</h5>
@@ -58,7 +65,7 @@
                     </div>
                 </div>
                 <!--------------------------------------------------------------------------------------------------------------------->
-                <div class="card w-25 align-right" id="linkedincard">
+                <div class="card w-25 align-right" data-aos="fade-left" data-aos-delay="2000" id="linkedincard">
                     <img class="card-img-top" src="{% static 'images/linkedin.png' %}" id="linkedinimage">
                     <div class="card-body" style="background-color: lightgrey">
                         <h5 class="card-title" style="font-size: 2.5vw">My LinkedIn</h5>
@@ -72,7 +79,7 @@
                 <!----------------------------------------------------  CARD END  -------------------------------------------------------------->
             </div>
         </div>
-        <div id="footer" class="d-flex justify-content-center">
+        <div id="footer" style="background-color: #16181b;width: auto;height: 25vw">
 
         </div>
 
@@ -80,7 +87,6 @@
     </div>
     <!-----------------------------------------------  NAVBAR END STICKY   -------------------------------------------------------->
     </body>
-    <!--
-    <div id="footerdiv"></div> -->
 
+    {% include 'MainClient/animations.html' %}
 {% endblock %}

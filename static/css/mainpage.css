@@ -96,21 +96,8 @@ p {
 
 }
 
-
-#footer {
-    height: 50vh;
-
-
+#cardcontainer {
+    background-color: whitesmoke;
+    padding-bottom: 5vw;
+    padding-top: 2.5vw;
 }
-
-#footerdiv {
-    min-height: 0.5vh;
-    background-color: floralwhite;
-}
-
-#footer2 {
-    min-height: 3px;
-    max-height: 5px;
-}
-
-
