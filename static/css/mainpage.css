@@ -1,12 +1,12 @@
 h1 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Sriracha', cursive;
     color: honeydew;
     font-size: 3.5vw;
     padding-top: 5vw;
 }
 
 h2 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Indie Flower', cursive;
     color: honeydew;
     padding-top: 0.55em;
     font-size: 1.5vw;
@@ -19,7 +19,7 @@ h3 {
 
 h4 {
     font-size: 1.5vw;
-    font-family: 'Indie Flower', cursive;
+
 }
 
 p {
