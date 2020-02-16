@@ -4,6 +4,7 @@
 
 {% block content %}
     <link rel="stylesheet" type="text/css" href="{% static 'css/mainpage.css' %}">
+    
     </head>
     <body id="landingpagebody">
 
@@ -19,16 +20,27 @@
     <!-----------------------------------------------  NAVBAR START   ---------------------------------------------------------------------->
     <div>
         {% include 'MainClient/navbar.html' %}
-        <div class="jumbotron jumbotron-fluid" style="background-color: #1d1d1d;height: 40vw;margin-bottom: -1vw">
+        <div class="jumbotron jumbotron-fluid" style="background-color: #1d1d1d;height: 40vw;margin-bottom: -1vw"
+             id="jumbo">
             <table class="table-borderless" style="margin: auto; width: 50% !important;">
                 <thead>
                 <tr>
                     <th data-aos="zoom-in" data-aos-duration="3000" scope="col"
-                        style="color: white;text-align: center;font-size: 2vw;font-family: 'Luckiest Guy', cursive;">
-                        About
-                        Me
+                        style="color: white;text-align: center;font-size: 4vw;font-family: 'Luckiest Guy', cursive;">
+                        Hey there!
                     </th>
 
+                </tr>
+                <tr>
+                    <th data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="500" scope="col"
+                        style="color: white;text-align: center;font-size: 1.75vw;font-family: 'Noto Sans TC', sans-serif;">
+                        Welcome to my personal webapp! If you are a pre-authorized client from Upwork, you can proceed
+                        to simply login via the provided login information and then edit them later
+                        if you wish. If you are a potential client or just a visitor, feel free to register yourself as
+                        a new member. There will be exciting new features added to the
+                        app later on, including my very own forum. But for now feel free to join me up on discord or
+                        just drop a chat or if you are old-school hit me up with an email.
+                    </th>
                 </tr>
                 </thead>
             </table>
@@ -90,29 +102,8 @@
                 <!----------------------------------------------------  CARD END  -------------------------------------------------------------->
             </div>
         </div>
-        <div id="footer" style="background-color: #16181b;width: auto;height: 15vw">
-            <table class="table-borderless" style="margin: auto; width: 50% !important;">
-                <thead>
-                <tr>
-                    <th scope="col" style="color: whitesmoke;padding-top: 1.5vw;font-size: 1.2vw;text-align: center">
-                        Interested in my work? Feel free to contact me via email or just drop in a chat
-                    </th>
-                </tr>
-                <tr>
-                    <th scope="col" style="color: whitesmoke;padding-top: 1.5vw;font-size: 1.2vw;text-align: center">
-                        Copyright &copy; Shehanka Fernando
-                    </th>
-                </tr>
-                <tr>
-                    <th scope="col" style="color: whitesmoke;padding-top: 1.5vw;font-size: 1.2vw;text-align: center">
-                        Built using Bootstrap, Jquery and Django
-                    </th>
-                </tr>
-                </thead>
 
-
-            </table>
-        </div>
+        {% include 'MainClient/footer.html' %}
 
 
     </div>
