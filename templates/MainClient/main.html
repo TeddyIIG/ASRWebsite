@@ -9,18 +9,19 @@
     <body id="landingpagebody">
 
     <!---------------------------------------------------  HEADER  ---------------------------------------------------------------------->
-    <div class="container-fluid" id="headerdiv">
+    <div class="flex-container" id="headerdiv">
 
         <h1 class="text-center" id="mainheading">Shehanka Fernando</h1>
         <h2 class="text-center" id="secondheading">Software Engineer by Day! Gamer by Night!</h2>
-        <img id="logoimage" class="img-fluid" src="{% static 'images/Logo2.png' %}">
+
 
     </div>
     <!---------------------------------------------------  HEADER END ---------------------------------------------------------------------->
     <!-----------------------------------------------  NAVBAR START   ---------------------------------------------------------------------->
     <div>
         {% include 'MainClient/navbar.html' %}
-        <div class="jumbotron jumbotron-fluid" style="background-color: #1d1d1d;height: 40vw;margin-bottom: -1vw"
+        <div class="jumbotron jumbotron-fluid flex-container"
+             style="background-color: #1d1d1d;height: auto;margin-bottom: -1vw"
              id="jumbo">
             <table class="table-borderless" style="margin: auto; width: 50% !important;">
                 <thead>
@@ -33,7 +34,7 @@
                 </tr>
                 <tr>
                     <th data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="500" scope="col"
-                        style="color: white;text-align: center;font-size: 1.75vw;font-family: 'Noto Sans TC', sans-serif;">
+                        style="color: white;text-align: center;font-size: 0.78em;font-family: 'Noto Sans TC', sans-serif;">
                         Welcome to my personal webapp! If you are a pre-authorized client from Upwork, you can proceed
                         to simply login via the provided login information and then edit them later
                         if you wish. If you are a potential client or just a visitor, feel free to register yourself as
