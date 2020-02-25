@@ -20,7 +20,7 @@ pdfminer.six==20160614
 pipenv==2018.11.26
 pycparser==2.19
 pyparsing==2.2.0
-python-gnupg==0.4.3
+python-gnupg==0.4.4
 pytz==2018.7
 gunicorn==19.9.0
 six==1.10.0
