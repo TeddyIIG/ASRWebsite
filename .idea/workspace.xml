@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c84cd78-4dc6-412d-8cc3-4631a5909737" name="Default Changelist" comment="Changed to personal site">
-      <change beforePath="$PROJECT_DIR$/ASR_Main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASR_Main/admin.py" afterDir="false" />
+    <list default="true" id="4c84cd78-4dc6-412d-8cc3-4631a5909737" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASR_Main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582649333783</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Changed to personal site">
+      <created>1584764199878</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1584764199878</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,14 +363,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1584758456282" />
-    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584728656592">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584764467560">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584728656592" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1584764150512">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584764467560" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1584764199424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584764150512" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584764199424" />
     <state x="129" y="53" key="DiffContextDialog" timestamp="1580998450171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -426,10 +435,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579184176437" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1582649337217">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1584764204354">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582649337217" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584764204354" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579185285307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
