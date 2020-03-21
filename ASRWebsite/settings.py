@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+import ASR_Main
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
@@ -36,7 +38,8 @@ ALLOWED_HOSTS = [
     'www.shehankafernando.com',
     'shehankafernando.com',
     'https://www.shehankafernando.com',
-    '127.0.0.1'
+    '127.0.0.1',
+    'localhost',
 ]
 
 # Application definition
@@ -49,8 +52,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ASR_Main.apps.AsrMainConfig',
+    'crispy_forms',
 
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

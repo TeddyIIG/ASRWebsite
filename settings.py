@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
 import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -36,7 +37,9 @@ ALLOWED_HOSTS = [
     'www.shehankafernando.com',
     'shehankafernando.com',
     'https://www.shehankafernando.com',
-    '127.0.0.1'
+    '127.0.0.1',
+    'localhost',
+
 ]
 
 # Application definition
@@ -49,8 +52,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ASR_Main.apps.AsrMainConfig',
+    'django_countries',
+    'phonenumber_field',
+    'email',
+    'crispy_forms',
 
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

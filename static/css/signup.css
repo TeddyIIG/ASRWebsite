@@ -1,0 +1,15 @@
+#mainbod {
+
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: honeydew;
+    font-size: 3em;
+    padding-top: 0.4em;
+}
+
+#signupheader {
+    width: 100%;
+    height: auto;
+}
